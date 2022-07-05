@@ -19,7 +19,9 @@ p{
     font-size: 18px;
     line-height: 28px;
 }
-
+input,button{
+    font-family: 'Inter', sans-serif;
+}
 .main{
     max-width: 1140px;
     width:95%;
@@ -42,6 +44,8 @@ p{
 }
 .section_heading p{
     color: #707070;
+    max-width: 826px;
+    margin: 0 auto;
 }
 
 /* hero css  */
@@ -95,4 +99,79 @@ p{
 }
 .hero_content a:hover{
     opacity: 0.7;
+}
+.donate_content{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 826px;
+}
+.donate_blance{
+    display: flex;
+    justify-content: space-between;
+}
+.donate_blance_single{
+    width: 150px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.donate_blance_single span{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+}
+.donate_blance_single.active{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.donate_input{
+    margin-top: 50px;
+}
+.single_donate_input input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 100%;
+}
+.single_donate_input input:focus{
+    outline: none;
+}
+.single_donate_button button {
+	width: 160px;
+	height: 56px;
+	background: #FF5959;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	transition: 0.3s;
+    border: none;
+    margin-top:30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.single_donate_button button:hover{
+    opacity: 0.7;
+}
+.donate_plan_area{
+    margin-top: 150px;
 }
